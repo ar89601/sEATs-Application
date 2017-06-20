@@ -2,7 +2,7 @@
  * @author Ashley.Ridout
  * @date June 3, 2017
  */
-package templateCurrencyExchange;
+package currencyExchange;
 
 public class PoundExchange extends CurrencyExchangeAlgorithm {
 	double pound = 0.77;
