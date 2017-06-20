@@ -3,7 +3,7 @@
  * @date May 22, 2017
  *
  */
-package abstractFactoryOrderStyle;
+package orderStyle;
 
 // class for client to build the order
 public class Client {
