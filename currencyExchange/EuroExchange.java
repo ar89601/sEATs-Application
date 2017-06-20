@@ -20,7 +20,7 @@ public class EuroExchange extends CurrencyExchangeAlgorithm {
 	@Override
 	void exchange(double price){
 		this.price = price;
-		double newPrice = price * euro;	
+		price = price * euro;	
 	}	
 	
 	@Override
