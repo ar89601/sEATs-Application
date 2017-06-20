@@ -10,7 +10,6 @@ abstract class CurrencyExchangeAlgorithm {
 	double newPrice;
 	public final void handleRequest(){
 		displayExchangeRate();
-		exchange(price);
 		print(price);
 		endMessage();		
 	}
