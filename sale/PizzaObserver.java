@@ -10,6 +10,7 @@ public class PizzaObserver extends MenuItemObserver{
 	double price = 3.50;
 	
 	//method to get price
+	@Override
 	public double getPrice(){
 		return price;
 	}
@@ -26,3 +27,4 @@ public class PizzaObserver extends MenuItemObserver{
 		System.out.println("Pizza Sale price: $" + price *(1 - (source.getState())));
 	}
 }
+
