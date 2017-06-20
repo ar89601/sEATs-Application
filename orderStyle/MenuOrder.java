@@ -3,7 +3,7 @@
  * @date May 20, 2017
  *
  */
-package abstractFactoryOrderStyle;
+package orderStyle;
 
 public class MenuOrder implements Order {
 
