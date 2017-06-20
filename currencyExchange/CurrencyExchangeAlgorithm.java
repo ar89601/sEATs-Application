@@ -2,7 +2,7 @@
  * @author Ashley.Ridout
  * @date June 3, 2017
  */
-package templateCurrencyExchange;
+package currencyExchange;
 
 abstract class CurrencyExchangeAlgorithm {
 	// final method to handle request that cannot be overridden
