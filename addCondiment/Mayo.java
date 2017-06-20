@@ -2,7 +2,7 @@
  * @author Ashley.Ridout
  * @date June 5, 2017
  */
-package commandAddCondiment;
+package addCondiment;
 
 // receiver
 public class Mayo {
