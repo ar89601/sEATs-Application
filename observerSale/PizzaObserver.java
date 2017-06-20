@@ -3,7 +3,7 @@
  * @date June 1, 2017
  *
  */
-package observer;
+package observerSale;
 
 public class PizzaObserver extends MenuItemObserver{
 	// original price of pizza
