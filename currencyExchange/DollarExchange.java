@@ -2,7 +2,7 @@
  * @author Ashley.Ridout
  * @date June 3, 2017
  */
-package templateCurrencyExchange;
+package currencyExchange;
 
 public class DollarExchange extends CurrencyExchangeAlgorithm {
 	double dollar = 1;
