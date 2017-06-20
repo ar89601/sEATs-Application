@@ -7,10 +7,6 @@ package currencyExchange;
 public class PoundExchange extends CurrencyExchangeAlgorithm {
 	double pound = 0.77;
 	
-	public double getEuro(){
-		return pound;
-	}
-	
 	@Override
 	void displayExchangeRate(){
 		System.out.println("The exchange rate for dollar:pound is 1:0.77.");
