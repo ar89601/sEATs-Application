@@ -7,10 +7,6 @@ package currencyExchange;
 public class DollarExchange extends CurrencyExchangeAlgorithm {
 	double dollar = 1;
 	
-	public double getDollar(){
-		return dollar;
-	}
-	
 	@Override
 	void displayExchangeRate(){
 		System.out.println("The exchange rate for dollar:dollar is 1:1.");
