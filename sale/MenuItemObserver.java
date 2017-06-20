@@ -8,5 +8,7 @@ package sale;
 // abstract parent class for all observers
 public abstract class MenuItemObserver {
 		protected Source source;
+		public abstract double getPrice();
 		public abstract void update();
 }
+
