@@ -3,7 +3,7 @@
  * @date May 20, 2017
  *
  */
-package abstractFactoryOrderStyle;
+package orderStyle;
 
 public class MenuOrderStyle implements OrderStyle {
 	// create order based on the menu order style
