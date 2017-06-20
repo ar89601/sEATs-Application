@@ -13,7 +13,7 @@ public class DollarExchange extends CurrencyExchangeAlgorithm {
 	
 	@Override
 	void displayExchangeRate(){
-		System.out.println("The exchange rate for dollar:dollar is 1:1. Your order is already in dollar currency.");
+		System.out.println("The exchange rate for dollar:dollar is 1:1.");
 	}
 	
 	@Override
@@ -22,6 +22,6 @@ public class DollarExchange extends CurrencyExchangeAlgorithm {
 	}
 	@Override
 	void print(double price){
-		
+		System.out.println("Your order is already in dollar currency.");
 	}
 }
