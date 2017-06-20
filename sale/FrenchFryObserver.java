@@ -10,6 +10,7 @@ public class FrenchFryObserver extends MenuItemObserver{
 	double price = 1.50;
 	
 	// method to get price
+	@Override
 	public double getPrice(){
 		return price;
 	}
@@ -26,3 +27,4 @@ public class FrenchFryObserver extends MenuItemObserver{
 		System.out.println("Fries Sale Price: $" + price *(1 - (source.getState())));
 	}
 }
+
