@@ -10,6 +10,7 @@ public class CheeseburgerObserver extends MenuItemObserver {
 	double price = 6.00;
 	
 	// method to get price
+	@Override
 	public double getPrice(){
 		return price;
 	}
@@ -26,3 +27,4 @@ public class CheeseburgerObserver extends MenuItemObserver {
 		System.out.println("Cheeseburger Sale Price: $" + price *(1 - (source.getState())));
 	}
 }
+
