@@ -19,7 +19,7 @@ public class PoundExchange extends CurrencyExchangeAlgorithm {
 	@Override
 	void exchange(double price){
 		this.price = price;
-		double newPrice = price * pound;
+		price = price * pound;
 	}
 	@Override
 	void print(double price){
