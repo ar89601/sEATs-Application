@@ -2,7 +2,7 @@
  * @author Ashley.Ridout
  * @date June 1, 2017
  */
-package observer;
+package observerSale;
 
 import java.util.ArrayList;
 import java.util.List;
