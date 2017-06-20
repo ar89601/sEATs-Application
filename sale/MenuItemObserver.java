@@ -3,7 +3,7 @@
  * @date June 1, 2017
  *
  */
-package observerSale;
+package sale;
 
 // abstract parent class for all observers
 public abstract class MenuItemObserver {
